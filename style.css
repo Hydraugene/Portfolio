@@ -1,0 +1,122 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    background-color: rgb(57, 63, 63);
+    color: rgb(187, 187, 187);
+    font-size: 25;
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(87, 98, 110);
+    height: auto;
+    /* font-size: larger; */
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: rgb(87, 98, 110);
+    font-size: larger;  
+    /* position: fixed;
+    bottom: 0px; */
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+img{
+    width: auto;
+    height: 100%;
+}
+
+
+.connard{
+    padding: 2%;
+}
+
+.menu{
+    text-align: center;
+    /* font-size: 40; */
+    padding-top: 10;
+}
+
+a{
+    color: rgb(187, 187, 187);
+}
+
+/* mobile */
+@media only screen and (max-width: 600px){
+
+    body{
+        text-align: left;
+    }
+
+    /* .photoPresentation{
+        max-width: 250px;
+        max-height: 300px;
+    } */
+
+    .photoPresentation{
+        margin: auto;
+        width: auto;
+        height: 300px;
+    }
+
+    .textePresentation{
+        text-align: center;
+    }
+
+    .presentation{
+        text-align: center;
+        /* max-width: 250px;
+        max-height: 300px; */
+    }
+
+    /* .projets{
+        clear: both;
+    } */
+}
+
+/* pc */
+@media only screen and (min-width: 601px){
+
+    .photoPresentation{
+        width: 250;
+        height: auto;
+        float: left;
+        /* margin-left: 50px; */
+    }
+
+    .textePresentation{
+        width: calc(100% - 250px);
+        min-width: 300px;
+        float: right;
+        text-align: justify;
+    }
+
+    .presentation{
+        text-align: center;
+        clear: both;
+        height: 300px;
+        margin-left: 50px;
+    }
+
+    .projets{
+        clear: both;
+        margin-left: 50px;
+    }
+    
+    .competences{
+        clear: both;
+        margin-left: 50px;
+    }
+
+    .marg50{
+        margin-left: 50px;
+    }
+}

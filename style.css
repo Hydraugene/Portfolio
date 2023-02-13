@@ -39,6 +39,10 @@ img{
     padding: 2%;
 }
 
+.cache{
+    color: rgb(57, 63, 63);
+}
+
 .menu{
     text-align: center;
     /* font-size: 40; */
